@@ -1,0 +1,106 @@
+body{
+  /* width: 80%; */
+  margin: auto;
+  justify-content: center;
+}
+.container1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  padding: 50px;
+
+  width: 80%;
+  margin: auto;
+}
+.container2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.container2 button {
+  color: white;
+  background-color: rgb(136, 136, 215);
+  border: 5px;
+  font-weight: bold;
+}
+.con1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+}
+.container3 div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  width: 500px;
+}
+.container3 h1 {
+  font-size: 50px;
+}
+.container3 h2 {
+  font-weight: bold;
+}
+.container3 p {
+  font-size: 30px;
+}
+
+.table{
+  text-align: center;
+}
+
+.table table{
+
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+.table table th{
+  border: 1px solid black;
+}
+.table table td{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+}
+.container4{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  width: 500px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+  }
+  .container3 div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+   width: 300px;
+   height:300px;
+  }
+  .container1 {
+    border: 1px solid black;
+    padding: 10px;
+    /* width: 50%; */
+    margin: auto;
+  }
+}
